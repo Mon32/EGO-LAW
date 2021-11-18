@@ -166,7 +166,7 @@
 }
 .text-law{
     font-size:1.1rem ;
-    margin: 40px 0;
+    margin: 20px 0 10px 0;
     font-weight: 500;
     color: #616161;
 }
@@ -219,11 +219,12 @@
      max-width: 100%;
      height: 410px ;
      object-fit: cover;
-     filter: brightness(40%);
+     
 }
 .recentcase-item{
      position: relative;
      
+    
 }
 .text-recentcase-item{
      position: absolute;
@@ -232,9 +233,16 @@
      bottom: 30px;
 }
 .recentcase-text{
-    font-weight: 500;
+     font-weight: 500;
      color: #FAFAFA;
      margin-top: 7px;
      display: inline-block;
      font-size: 0.9rem;
+}
+.recentcase-mask{
+    background: linear-gradient(to top, rgba(0, 0.1, 0.3, 0.6), transparent);
+    position: absolute;
+    inset: 0px;
+    height: 410px;
+    top: 0px;
 }
