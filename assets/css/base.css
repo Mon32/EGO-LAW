@@ -10,58 +10,99 @@
 html{
     font-size: 62,5%; 
     line-height: 1.6rem;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Inria Serif', serif;
     box-sizing: border-box;
     
 }
-.grid{
-    width: 1200px;
+.heading-1{
+    color: #fff;
+    line-height: 4rem;
+    margin-top: 10px;
+    font-size: 3.6rem;
+    font-weight:400;
+
+}
+.heading-2{
+    color: #fff;
+    line-height: 3rem;
+    margin-top: 10px;
+    font-size: 2.2rem;
+    font-weight:400;
+}
+.heading-3{
+    color: #FAFAFA;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    font-weight: 300;
+}
+.grid-1000{
+    width: 1000px;
     max-width: 100%;
     margin: 0 auto;   
 }
+.grid-1400{
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
 .grid-row{
+    --gutter-x:32px;
     display: flex;
     margin-top: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: calc(var(--gutter-x)/-2);
+    margin-right:calc(var(--gutter-x)/-2);
+    
 }
 .grid-column-2{
     width: 50%;
-    margin: 5px;
+    margin: 0 16px;
 }
 .grid-column-3{
+    --gutter-x:32px;
     width:33.33% ;
-    margin: 0px 20px;
+    padding-left: calc(var(--gutter-x)/2);
+    padding-right: calc(var(--gutter-x)/2);
 }
 .grid-column-4{
+    --gutter-x:32px;
     width:25%;
-    margin: 5px;
+    margin: 0 16px;
+    
 }
+
 
 .btn-general{
     color: #ffff;
     background-color:var(--btn-color);
-    padding: 15px;  
+    padding: 12px 20px;  
     cursor: pointer;
     border: none;
     text-transform: uppercase;
+    font-family: 'Inria Serif', serif;
 }
 .btn-general:hover{
     opacity: 0.7;
 }
 .label-first{
-    color: #ffff;
-    font-size: 0.6rem;
+    color: #ece9e9;
+    font-size: 0.9rem;
     text-align: center;
     text-transform: uppercase;
 }
 .label-second{
     color: #165153;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     font-weight: bold;
 }
 .text-description{
-    color: #a0a0a0;
-    font-size:0.8rem ;
+    color: #bbbaba;
+    font-size:0.9rem ;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
+    line-height: 2rem;
 }
+
