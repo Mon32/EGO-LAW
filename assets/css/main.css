@@ -204,7 +204,8 @@
      background-color:#165153 ;
      height: 700px;
      margin-top: 120px;
-     text-align: center;   
+     text-align: center;
+     margin-bottom: 240px;   
 }
 .recentcase-description{
      text-align: center;
@@ -223,6 +224,7 @@
 }
 .recentcase-item{
      position: relative;
+     z-index: 1;
      
     
 }
@@ -245,4 +247,41 @@
     inset: 0px;
     height: 410px;
     top: 0px;
+}
+.our-results{
+    text-align: center;
+    background-color: #FBFAF9;
+    position: relative;
+    top: -240px;
+}
+.our-results-heading-2{
+    color: #444444;
+    margin-bottom: 80px;
+}
+.our-results-percent{
+    font-size: 4.4rem;
+    margin-top: 16px;
+    display: inline-block;
+}
+.our-results-heading-3{
+    color: #575757;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.our-results-text{
+    color: #616161;
+}
+.our-results-item{
+    padding: 0 40px;
+
+}
+.our-result-separate{
+    border-left: solid 1px #eeecec;
+    border-right: solid 1px #eeecec;
+}
+.our-results-btn{
+    margin-top: 70px;
+    padding: 16px 30px;
+    font-size: 1rem;
+    margin-bottom: 160px;
 }
