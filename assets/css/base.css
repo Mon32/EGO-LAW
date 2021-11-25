@@ -23,15 +23,13 @@ html{
 
 }
 .heading-2{
-    color: #fff;
     line-height: 3.6rem;
     margin-top: 20px;
     font-size: 2.8rem;
     font-weight:400;
 }
 .heading-3{
-    color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     line-height: 1.8rem;
     font-weight: 300;
@@ -40,6 +38,11 @@ html{
     width: 1000px;
     max-width: 100%;
     margin: 0 auto;   
+}
+.grid-1200{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 .grid-1400{
     width: 1400px;
@@ -51,14 +54,15 @@ html{
     display: flex;
     margin-top: 40px;
     flex-wrap: wrap;
-    margin-top: 30px;
     margin-left: calc(var(--gutter-x)/-2);
     margin-right:calc(var(--gutter-x)/-2);
     
 }
 .grid-column-2{
+    --gutter-x:32px;
     width: 50%;
-    margin: 0 16px;
+    padding-left: calc(var(--gutter-x)/2);
+    padding-right: calc(var(--gutter-x)/2);
 }
 .grid-column-3{
     --gutter-x:32px;
@@ -69,19 +73,19 @@ html{
 .grid-column-4{
     --gutter-x:32px;
     width:25%;
-    margin: 0 16px;
+    padding-left: calc(var(--gutter-x)/2);
+    padding-right: calc(var(--gutter-x)/2);
     
 }
-
-
 .btn-general{
     color: #ffff;
     background-color:var(--btn-color);
-    padding: 12px 20px;  
+    padding: 16px 30px;  
     cursor: pointer;
     border: none;
     text-transform: uppercase;
     font-family: 'Inria Serif', serif;
+    font-size: 1rem;
 }
 .btn-general:hover{
     opacity: 0.7;
@@ -94,7 +98,7 @@ html{
 }
 .label-second{
     color: #165153;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     font-weight: bold;
 }
